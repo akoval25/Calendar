@@ -1,0 +1,27 @@
+.Nav {
+   max-width: 260px;
+   width: 260px;
+   box-shadow: 0px 2px 3px #0000000D;
+}
+
+.Logo {
+   height: 70px;
+   padding-left: 20px;
+   background-color: #43425D;
+   color: white;
+   font-size: 15px;
+   align-content: center;
+   line-height: 21px;
+}
+
+.NavList {
+   background-color: #6A6996;
+}
+
+.NavListItem {
+   padding: 17px 0 17px 25px;
+   color: white;
+   line-height: 19px;
+   font-size: 15px;
+
+}
