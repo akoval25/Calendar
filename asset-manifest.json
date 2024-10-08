@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/Calendar/static/css/main.bc395598.css",
-    "main.js": "/Calendar/static/js/main.128d5de9.js",
+    "main.css": "/Calendar/static/css/main.5d956a2c.css",
+    "main.js": "/Calendar/static/js/main.040e911e.js",
+    "static/media/2.PNG": "/Calendar/static/media/2.0754d9c996922cd0d7b3.PNG",
     "index.html": "/Calendar/index.html",
-    "main.bc395598.css.map": "/Calendar/static/css/main.bc395598.css.map",
-    "main.128d5de9.js.map": "/Calendar/static/js/main.128d5de9.js.map"
+    "static/media/1.PNG": "/Calendar/static/media/1.aa5b4f14d927cb8b1e4d.PNG",
+    "static/media/Path 107.svg": "/Calendar/static/media/Path 107.9a1b3b91e65401a821b1a01df517508a.svg",
+    "static/media/Path 108.svg": "/Calendar/static/media/Path 108.46055707f5bc057bcc862756a8c57076.svg",
+    "static/media/3.PNG": "/Calendar/static/media/3.e1dd91fae1470be5800f.PNG",
+    "static/media/4.PNG": "/Calendar/static/media/4.b621d0c812a63aa4590b.PNG",
+    "static/media/Path 149.svg": "/Calendar/static/media/Path 149.11b31c53351efc8d033fc976696a59fc.svg",
+    "static/media/Path 357.svg": "/Calendar/static/media/Path 357.3229bbb9029e9ab467caccd2d3f368ec.svg",
+    "static/media/Path 358.svg": "/Calendar/static/media/Path 358.052e304e77c463bbe11f0dd87acdd67f.svg",
+    "static/media/Path 102.svg": "/Calendar/static/media/Path 102.c74adf0df50846bf207ae6286ef73a10.svg",
+    "main.5d956a2c.css.map": "/Calendar/static/css/main.5d956a2c.css.map",
+    "main.040e911e.js.map": "/Calendar/static/js/main.040e911e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc395598.css",
-    "static/js/main.128d5de9.js"
+    "static/css/main.5d956a2c.css",
+    "static/js/main.040e911e.js"
   ]
 }
