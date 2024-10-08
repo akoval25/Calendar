@@ -12,7 +12,6 @@ const Event = () => {
   const [showForm, setShowForm] = useState(false);
   const [formPosition, setFormPosition] = useState({ top: '0', left: '0' });
 
-  // Функція для додавання події
   const handleAddEvent = () => {
     const eventDateTime = new Date(`${newEvent.date}T${newEvent.time}`);
     if (newEvent.title.length <= 30) {
@@ -22,25 +21,21 @@ const Event = () => {
     }
   };
 
-  // Функція для скасування додавання події
   const handleCancel = () => {
     setNewEvent({ title: '', date: '', time: '', notes: '', color: '#000' });
     setShowForm(false);
   };
 
-  // Перевірка, чи дата сьогоднішня або майбутня
   const isFutureOrToday = (date) => {
     const now = moment().startOf('day');
     return moment(date).isSameOrAfter(now);
   };
 
-  // Функція для обробки кліку по календарю
   const handleCalendarClick = (e) => {
     const clickX = e.clientX;
     const clickY = e.clientY;
 
-    // Відкриваємо форму на позиції кліка
-    setFormPosition({ top: `${clickY}px`, left: `${clickX}px` });
+    setFormPosition({ top: `${clickY}px`, left: `${clickX -350}px` });
     setShowForm(true);
   };
 
@@ -63,7 +58,6 @@ const Event = () => {
         />
       </div>
 
-      {/* Форма для додавання події поверх календаря */}
       {showForm && (
         <div style={{
           position: 'absolute',

@@ -1,3 +1,5 @@
+
+
 .Nav {
    max-width: 260px;
    width: 260px;
@@ -7,7 +9,7 @@
 .Logo {
    height: 70px;
    padding-left: 20px;
-   background-color: #43425D;
+   background-color: #35334b;
    color: white;
    font-size: 15px;
    align-content: center;
@@ -15,7 +17,7 @@
 }
 
 .NavList {
-   background-color: #6A6996;
+   background-color: #43425D;
 }
 
 .NavListItem {
@@ -23,5 +25,9 @@
    color: white;
    line-height: 19px;
    font-size: 15px;
+}
 
+.NavListItem img {
+   margin-right: 11px;
+   margin-bottom: -2px;
 }
